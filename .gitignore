@@ -1,0 +1,23 @@
+# Temp files #
+##############
+*.pyc
+*~
+
+# Project specific
+.env
+pip-log.txt
+
+# Packages #
+############
+*.gz
+*.rar
+*.tar
+*.zip
+*.tar.gz
+
+# Logs and databases #
+######################
+/log/
+*.log
+*.sqlite
+*.db

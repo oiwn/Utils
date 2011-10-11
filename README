@@ -1,0 +1,5 @@
+ideas:
+
+get_token - generate random token. example: fdks4857lsdfs487
+proxy - class for base proxy
+proxychecker - organize work and proxy checking
