@@ -17,7 +17,7 @@ pip-log.txt
 
 # Logs and databases #
 ######################
-log
+log/
 *.log
 *.sqlite
 *.db
