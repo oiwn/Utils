@@ -4,7 +4,7 @@ import logging
 import unittest
 from unittest import TestCase
 
-from merger import KeywordsMerger
+from keywords import Keywords
 
 PREWORDS = ['where can i', 'how can i']
 KEYWORDS = ['get', 'order', 'buy']
@@ -13,8 +13,8 @@ ADDWORDS = ['iphone', 'ipad']
 
 class TestKeywords(TestCase):
     def test_keywords_merger(self):
-        merger = KeywordsMerger(KEYWORDS, addwords=ADDWORDS, prewords=PREWORDS)
-        print merger.merge()
+        keys = Keywords()
+        self.assertEqual(12, len(keys.merge(KEYWORDS, addwords=ADDWORDS, prewords=PREWORDS)))
 
 
 if __name__ == '__main__':
